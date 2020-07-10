@@ -1,0 +1,54 @@
+.flex{
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+}
+.color-background-gradstart{
+	background: linear-gradient(180deg, #DBDBDB 0%, rgba(255, 255, 255, 0) 30%), #FDFBFE;
+}
+.color-background-gradend{
+	background: linear-gradient(360deg, #DBDBDB 0%, rgba(255, 255, 255, 0) 30%), #FDFBFE;
+}
+.l-main-title>span{
+	font-weight: bold;
+}
+.bold-p{
+	color: #090E0D;
+	font-weight: normal;
+	padding-top: 50px;
+	padding-left: 4%;
+	@include tablets {
+		padding-left: 0px;
+	}
+
+	@include phones {
+		padding-left: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+.pad-c{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 4%;
+	padding-left: 4%;
+	@include tablets {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	@include phones {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+}
+.title-color-black{
+	color: #1B1B1B !important;
+}
+.paragraph-color-gray{
+	color: #8F8F8 !important;
+}
+.l-center-end{
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
